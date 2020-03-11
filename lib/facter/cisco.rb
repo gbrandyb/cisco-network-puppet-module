@@ -1,6 +1,5 @@
 require 'facter'
 require_relative '../facter/cisco_nexus'
-#require 'facter/cisco_nexus'
 
 Facter.add(:cisco) do
   confine operatingsystem: [:ios_xr, :nexus]
